@@ -51,7 +51,7 @@ function App() {
           
       }
       setTombKevertt(tombSeged)
-          alert(JSON.stringify(tombSeged))
+          //alert(JSON.stringify(tombSeged))
   }
   }
   ,[])
