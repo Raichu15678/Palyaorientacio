@@ -8,3 +8,20 @@ body{
   background-color: black;
   color: white;
 }
+
+.tarolo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.oszlop{
+  flex: 1;
+}
+
+
+@media (max-width: 600px) {
+  .oszlop{
+    flex: 100%;
+  }
+}

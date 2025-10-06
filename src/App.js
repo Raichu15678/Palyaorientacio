@@ -66,7 +66,11 @@ segítséget: kitöltésével tájékozódhat a képességeiről, melyek jelenti
 azok, amelyekben gyengébb. </h2>
       <div>
         {tombKevert.map((elem,index)=>(
-          <div>{elem.kijelentes}</div>
+          <div className='tarolo'>
+            <div className='oszlop'>{elem.kijelentes}</div>
+            <div className='oszlop'></div>
+          </div>
+          
         ))}
           
       </div>
